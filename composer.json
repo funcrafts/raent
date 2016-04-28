@@ -1,0 +1,16 @@
+{
+  "name":"funcraft/raent",
+  "description":"Funcraft Registration and Authorization Client",
+  "license":"FreeBSD",
+  "require":{
+    "guzzlehttp/guzzle":"6.*"
+  },
+  "require-dev":{
+    "codeception/codeception": "*"
+  },
+  "autoload":{
+    "psr4":{
+      "funcraft\\raent":""
+    }
+  }
+}
